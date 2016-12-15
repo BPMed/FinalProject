@@ -1,0 +1,78 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+}
+html {
+    background-color: #42e5f4;
+    opacity: .95;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    border: 3px solid blue;
+}
+body {
+    width: 520px;
+    height: 505px;
+    border: 2px solid blue;
+    font-family: Calibri;
+    font-size: 12px;
+    margin: auto;
+    border: 3px solid #3366FF;
+	border-radius: 0px;
+	box-shadow: 5px 5px 6px 6px black;
+    background-color: #42e5f4;    
+}
+/*This is the formatting for the header section located just above the main*/
+header {
+    padding: 5px;
+    font-family: Cambria;
+    font-size: 16px;
+    font-weight: bold;
+}
+/*This is the formatting for the form1 section located in the main */
+.home .par1 {
+     padding: 5px;  
+    font-style: italic;
+    word-wrap: break-word;
+}
+.home .login_form {
+    height: 325px;
+    border: 2px solid black;
+    
+}
+.home .login_form .formPar1, .formPar2 {
+   padding: 10px;
+   width: 200px;
+   float: left;
+}
+.home .login_form label {
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 280px;
+    text-align: right;
+}
+.home .login_form input {
+  margin: 2px;
+  display: inline-block;
+  width: 200px;
+  float: left;
+}
+.home .login_form .login_Button {
+    margin-top: 5px;
+    float: right;
+    margin-right: 36px;
+    
+}
+.home .login_form .horizLine {
+    width: 100%;
+    height: 1px;
+    background: #3366FF;
+    margin-top: 110px;
+}
+/*This is the formatting for the footer section */
+footer {
+    padding: 5px;
+    
+}
